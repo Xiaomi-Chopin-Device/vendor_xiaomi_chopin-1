@@ -36,29 +36,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chopin/proprietary/lib64/libmtkperf_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmtkperf_client.so \
     vendor/xiaomi/chopin/proprietary/lib64/libvcodec_cap.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_cap.so \
     vendor/xiaomi/chopin/proprietary/lib64/libvcodec_capenc.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libvcodec_capenc.so \
-    vendor/xiaomi/chopin/proprietary/system_ext/bin/aee:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/aee \
-    vendor/xiaomi/chopin/proprietary/system_ext/bin/aee_aed:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/aee_aed \
-    vendor/xiaomi/chopin/proprietary/system_ext/bin/aee_aed64:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/aee_aed64 \
-    vendor/xiaomi/chopin/proprietary/system_ext/bin/aee_core_forwarder:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/aee_core_forwarder \
-    vendor/xiaomi/chopin/proprietary/system_ext/bin/aee_dumpstate:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/aee_dumpstate \
-    vendor/xiaomi/chopin/proprietary/system_ext/bin/emdlogger1:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/emdlogger1 \
-    vendor/xiaomi/chopin/proprietary/system_ext/bin/emdlogger2:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/emdlogger2 \
-    vendor/xiaomi/chopin/proprietary/system_ext/bin/emdlogger3:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/emdlogger3 \
-    vendor/xiaomi/chopin/proprietary/system_ext/bin/emdlogger5:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/emdlogger5 \
-    vendor/xiaomi/chopin/proprietary/system_ext/bin/mdlogger:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/mdlogger \
-    vendor/xiaomi/chopin/proprietary/system_ext/bin/rtt:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/rtt \
-    vendor/xiaomi/chopin/proprietary/system_ext/bin/trace:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/trace \
-    vendor/xiaomi/chopin/proprietary/system_ext/etc/aee-config:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/aee-config \
-    vendor/xiaomi/chopin/proprietary/system_ext/etc/init/aee_aed.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/aee_aed.rc \
-    vendor/xiaomi/chopin/proprietary/system_ext/etc/init/aee_aed64.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/aee_aed64.rc \
-    vendor/xiaomi/chopin/proprietary/system_ext/etc/init/emdlogger1.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/emdlogger1.rc \
-    vendor/xiaomi/chopin/proprietary/system_ext/etc/init/emdlogger2.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/emdlogger2.rc \
-    vendor/xiaomi/chopin/proprietary/system_ext/etc/init/emdlogger3.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/emdlogger3.rc \
-    vendor/xiaomi/chopin/proprietary/system_ext/etc/init/emdlogger5.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/emdlogger5.rc \
-    vendor/xiaomi/chopin/proprietary/system_ext/etc/init/hw/init.aee.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/hw/init.aee.rc \
-    vendor/xiaomi/chopin/proprietary/system_ext/etc/init/hw/vendor_init_as_system.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/hw/vendor_init_as_system.rc \
-    vendor/xiaomi/chopin/proprietary/system_ext/etc/init/mdlogger.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/mdlogger.rc \
-    vendor/xiaomi/chopin/proprietary/system_ext/etc/nr-city.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/nr-city.xml \
     vendor/xiaomi/chopin/proprietary/system_ext/etc/permissions/com.nxp.mifare.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.nxp.mifare.xml \
     vendor/xiaomi/chopin/proprietary/system_ext/etc/permissions/com.st.android.nfc_extensions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/com.st.android.nfc_extensions.xml \
     vendor/xiaomi/chopin/proprietary/system_ext/etc/permissions/system-ext-permissions-mediatek.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/system-ext-permissions-mediatek.xml \
